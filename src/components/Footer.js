@@ -1,12 +1,18 @@
 import React from 'react'
+import NavLogo from '../Final_Logo.png'
 
 const Footer = () => {
+  const imgstyle={
+   
+        height: '225px',
+        width: '250px'
+  }
   return (
     <>
       <footer class=" text-center  footer-32892 expand-lg">
         <section class="mb-5 p-4">
           <a
-            class="btn btn-outline-dark btn-floating m-1"
+            class="btn footer_buttons btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -14,7 +20,7 @@ const Footer = () => {
           </a>
 
           <a
-            class="btn btn-outline-dark btn-floating m-1"
+            class="btn footer_buttons btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -22,7 +28,7 @@ const Footer = () => {
           </a>
 
           <a
-            class="btn btn-outline-dark btn-floating m-1"
+            class="btn footer_buttons btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -30,7 +36,7 @@ const Footer = () => {
           </a>
 
           <a
-            class="btn btn-outline-dark btn-floating m-1"
+            class="btn footer_buttons btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -38,7 +44,7 @@ const Footer = () => {
           </a>
 
           <a
-            class="btn btn-outline-dark btn-floating m-1"
+            class="btn footer_buttons btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -46,7 +52,7 @@ const Footer = () => {
           </a>
 
           <a
-            class="btn btn-outline-dark  btn-floating m-1"
+            class="btn footer_buttons  btn-floating m-1"
             href="#!"
             role="button"
           >
@@ -54,9 +60,9 @@ const Footer = () => {
           </a>
         </section>
         <section class="">
-          <div class="container text-center text-md-start mt-5">
+          <div class="container text-center text-dark text-md-start mt-5">
             <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-white" >
                 <h6 class="text-uppercase fw-bold mb-4">
                   <i class="fas fa-gem me-3"></i>Company name
                 </h6>
@@ -70,30 +76,11 @@ const Footer = () => {
               
 
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" class="text-reset">
-                    Pricing
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">
-                    Settings
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">
-                    Orders
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">
-                    Help
-                  </a>
-                </p>
+               
+                <img src={NavLogo} className='img-brand-f' style={imgstyle} />
               </div>
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
                 <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
                   <i class="fas fa-home me-3"></i> At- Hutupara, Darlipali,Sundargarh,Odisha - 770072
@@ -112,8 +99,8 @@ const Footer = () => {
         </section>
         <hr></hr>
         
-        <div class="text-start p-3 watermark bg-grey">© Blue Swan Public School 2021. <br></br>All Rights Reserved
-Designed & Maintened by <a className='uphill' href='https://uphilltech.com/'>Uphill Technologies </a></div>
+        <div class="text-start p-3 watermark bg-grey text-white"><p>© Blue Swan Public School 2021. <br></br>All Rights Reserved
+Designed & Maintened by <a className='uphill' href='https://uphilltech.com/'>Uphill Technologies </a></p></div>
       </footer>
     </>
   )

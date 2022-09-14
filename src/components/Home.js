@@ -6,17 +6,17 @@ function Home() {
         <>
 
         <main class="container home_top">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
             <div class="row align-items-center home_top_content">
 
-                <div class="col-md-6   col-12 p-3">
+                <div class="col-md-6   col-12 p-3" >
                     <h1>Learning Today,</h1>
                
                         <h1>Leading Tomorrow</h1>
                     <br/>
                     <a class="btn home_button p-3 text-white" href="#">Get Started</a>
                 </div>
-                <div class="col-md-6 col-12  " >
+                <div class="col-md-6 col-12  "  >
                     <img class="img-fluid h-50 w-100" src="http://blueswanpublicschool.in/assets/img/pic/playschool.jpg" alt="not found" style={{ borderRadius: "20px" }}/>
                 </div>
             </div>
@@ -30,8 +30,11 @@ function Home() {
         integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
         crossorigin="anonymous"
       />
-      <div class="container">
+      <div class="container my-3">
         <div class="row align-items-center">
+              <h2 class="col-12 text-custom font-weight-normal mb-3 text-center pri">
+                About Us
+              </h2>
           <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-sm-0 opt-sm-0">
             <div class="row align-items-center">
               <div class="col-lg-6 col-md-6 col-6">
@@ -64,7 +67,7 @@ function Home() {
                     </div>
                   </div>
 
-                  <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                  <div class="col-lg-12 col-md-12 mt-2 pt-2">
                     <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
                       <img
                         src="https://images.unsplash.com/photo-1636202339022-7d67f7447e3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNjaG9vbCUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
@@ -81,9 +84,6 @@ function Home() {
 
           <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
             <div class="section-title ml-lg-5">
-              <h2 class="text-custom font-weight-normal mb-3">
-                About Us
-              </h2>
               <br />
               <br />
               <h4 class="title mb-4" style={{ fontSize: 29 }}>
@@ -123,7 +123,7 @@ function Home() {
               </p>
             </div>
             <div class="col-12">
-              <div class="mt-4 pt-2 text-right">
+              <div class="my-3 pt-2 text-right">
                 <a
                   href="javascript:void(0)"
                   class="btn home_button"

@@ -1,25 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import NavLogo from '../Final_Logo.png'
 import '../App.css'
 const Navbar = () => {
   const colorblu = {
-    color: '#ad1457',
+    color: '#0c62aa',
   }
-  const colorpur = {
-    color: '#00e676    ',
-  }
-  const colorgren = {
-    color: '#00FFAB',
-  }
-  const colororange = {
-    color: '#fb8c00',
-  }
+ 
   return (
     <>
-      <nav class="navbar stroke navbar-expand-lg fixed-top ">
+      <nav class="navbar stroke navbar-expand-lg sticky-top text-black">
         <div class="container-fluid">
           <a class="navbar-brand mx-2" href="#">
-          <img class="img-fluid h-50 w-75" src="http://blueswanpublicschool.in/index.html" alt="not found" style={{ borderRadius: "20px" }}/>
+          <img class="img-fluid h-15 w-25" src={NavLogo} alt="not found" style={{ borderRadius: "20px" }}/>
           </a>
           <button
             class="navbar-toggler"
@@ -30,51 +23,50 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-black" style={colorblu}></span>
           </button>
           <div class="collapse navbar-collapse mr-auto" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item mx-2">
                 <a
-                  class="nav-link active text-danger red-text"
+                  class="nav-link active" style={colorblu}
                   aria-current="page"
-                  href="#"
-                >
+                  href="#">
                   Home
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link text-primary blue-text" href="#">
+                <a class="nav-link " style={colorblu} href="#">
                   About us
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link text-warning yellow-text" href="#">
+                <a class="nav-link " style={colorblu} href="#">
                   Activities
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link text-success green-text" href="#">
+                <a class="nav-link" style={colorblu} href="#">
                   Curriculum
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link lightblu-text"  style={colororange} href="#">
+                <a class="nav-link"  style={colorblu} href="#">
                   Events
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link bluedot-text" style={colorblu} href="#">
+                <a class="nav-link" style={colorblu} href="#">
                   Career
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link lightpurple-text" style={colorpur} href="#">
+                <a class="nav-link" style={colorblu} href="#">
                   Admission
                 </a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link lightgreen-text" style={colorgren} href="#">
+                <a class="nav-link" style={colorblu} href="#">
                   Contact
                 </a>
               </li>
