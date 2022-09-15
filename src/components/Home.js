@@ -9,14 +9,14 @@ function Home() {
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
             <div class="row align-items-center home_top_content">
 
-                <div class="col-md-6   col-12 p-3" >
+                <div class="col-md-6   col-12 p-3" data-aos="fade-down" data-aos-duration="1000">
                     <h1>Learning Today,</h1>
                
                         <h1>Leading Tomorrow</h1>
                     <br/>
                     <a class="btn home_button p-3 text-white" href="#">Get Started</a>
                 </div>
-                <div class="col-md-6 col-12  "  >
+                <div class="col-md-6 col-12  "  data-aos="fade-up" data-aos-duration="1000">
                     <img class="img-fluid h-50 w-100" src="http://blueswanpublicschool.in/assets/img/pic/playschool.jpg" alt="not found" style={{ borderRadius: "20px" }}/>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function Home() {
               <h2 class="col-12 text-custom font-weight-normal mb-3 text-center pri">
                 About Us
               </h2>
-          <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-sm-0 opt-sm-0">
+          <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-sm-0 opt-sm-0"  data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="row align-items-center">
               <div class="col-lg-6 col-md-6 col-6">
                 <div class="row">
@@ -53,7 +53,7 @@ function Home() {
                 </div>
               </div>
 
-              <div class="col-lg-6 col-md-6 col-6">
+              <div class="col-lg-6 col-md-6 col-6" >
                 <div class="row">
                   <div class="col-lg-12 col-md-12">
                     <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
@@ -82,7 +82,7 @@ function Home() {
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
+          <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2"  data-aos="zoom-out-up" data-aos-duration="1000">
             <div class="section-title ml-lg-5">
               <br />
               <br />
