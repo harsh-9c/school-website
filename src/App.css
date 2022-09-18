@@ -29,11 +29,11 @@ h1 {
   text-decoration: none;
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  font-size: 55px;
+  /* font-size: 55px; */
   color: #0c62aa !important;
 }
 .head {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   width: fit-content;
   opacity: 0.8;
 }
@@ -56,8 +56,12 @@ nav.stroke :after {
   height: 4px;
   opacity: 1;
 }
-.pri {
-  border-bottom: 2px solid #0c62aa;
+.about-heading {
+  border-bottom: 4px solid #0c62aa;
+  width: fit-content;
+  text-align: center !important;
+  margin: auto;
+  font-weight: bolder;
 }
 
 nav.stroke ul li a:hover:after {
@@ -122,8 +126,8 @@ nav.stroke ul li a:hover:after {
 .footer_buttons {
   border: 2px solid #0c62aa;
 }
-.footer_buttons:hover {
-  background-color: #0c62aa;
+.footer_buttons {
+  border-radius: 55% !important;
 }
 .footer_buttons i:hover {
   color: white;

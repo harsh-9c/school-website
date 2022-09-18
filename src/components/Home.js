@@ -41,53 +41,38 @@ function Home() {
           crossorigin="anonymous"
         />
         <div class="container my-3">
+          <br />
+          <br />
+          <h2 class="about-heading">About Us</h2>
           <div class="row align-items-center">
-            <h2 class="col-12 text-custom font-weight-normal mb-3 text-center pri">
-              About Us
-            </h2>
             <div
               class="col-lg-6 col-md-6 order-2 order-md-1 mt-sm-0 opt-sm-0"
               data-aos="zoom-in-up"
               data-aos-duration="1000"
             >
               <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-6">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                      <div class="card work-desk rounded border-0 shadow-lg overflow-hidden ">
-                        <img
-                          src="https://images.unsplash.com/photo-1501686637-b7aa9c48a882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHNjaG9vbCUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-                          class="img-fluid h-50"
-                          alt="Image"
-                        />
-                        <div class="img-overlay bg-dark"></div>
-                      </div>
+                <div class="row">
+                  <div class="col-lg-10 col-md-10">
+                    <br />
+                    <br />
+                    <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                      <img
+                        src="http://blueswanpublicschool.in/assets/img/pic/LEARN.jpg"
+                        class="img-fluid h-50"
+                        alt="Image"
+                      />
+                      <div class="img-overlay bg-dark"></div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-lg-6 col-md-6 col-6">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                      <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                        <img
-                          src="http://blueswanpublicschool.in/assets/img/pic/LEARN.jpg"
-                          class="img-fluid h-50"
-                          alt="Image"
-                        />
-                        <div class="img-overlay bg-dark"></div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12 mt-2 pt-2">
-                      <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                        <img
-                          src="https://images.unsplash.com/photo-1636202339022-7d67f7447e3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNjaG9vbCUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-                          class="img-fluid"
-                          alt="Image"
-                        />
-                        <div class="img-overlay bg-dark"></div>
-                      </div>
+                  <div class="col-lg-10 col-md-10 mt-2 pt-2">
+                    <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                      <img
+                        src="https://images.unsplash.com/photo-1636202339022-7d67f7447e3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNjaG9vbCUyMGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                        class="img-fluid"
+                        alt="Image"
+                      />
+                      <div class="img-overlay bg-dark"></div>
                     </div>
                   </div>
                 </div>
