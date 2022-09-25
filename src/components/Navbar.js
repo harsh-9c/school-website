@@ -11,14 +11,14 @@ const Navbar = () => {
     <>
       <nav class="navbar stroke navbar-expand-lg sticky-top text-black">
         <div class="container-fluid">
-          <a class="navbar-brand mx-2" href="#">
+          <NavLink class="navbar-brand mx-2" to={"/"}>
             <img
               class="img-fluid h-15 w-25"
               src={NavLogo}
               alt="not found"
               style={{ borderRadius: "20px" }}
             />
-          </a>
+          </NavLink>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,50 +35,50 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse mr-auto" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-2">
-                <a
+              <li class="nav-item mx-3 pb-2">
+                <NavLink
                   class="nav-link active"
                   style={colorblu}
                   aria-current="page"
-                  href="#"
+                  to="/"
                 >
                   Home
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link " style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link " style={colorblu} to="Aboutus">
                   About
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link " style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link " style={colorblu} to="/">
                   Activities
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link" style={colorblu} to="Curriculum">
                   Curriculum
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link" style={colorblu} to="/">
                   Events
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link" style={colorblu} to="Career">
                   Career
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link" style={colorblu} to="/">
                   Admission
-                </a>
+                </NavLink>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" style={colorblu} href="#">
+              <li class="nav-item mx-3 pb-2">
+                <NavLink class="nav-link" style={colorblu} to="Contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
